@@ -1,0 +1,34 @@
+:root {
+  /*-logo-url: url('https://...logo.png'); <<url loga hotelu, ktere se zobrazi na prvni strance weblinku*/ 
+  --font-family: Roboto, system-ui, Noto, Helvetica, Arial;
+
+  --primary-color: rgba(1, 0, 0, 0.7);
+  --primary-background: white;
+
+  --crisp-shadow: 0 0 4px 0 #666;
+  --soft-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.1);
+
+  --secondary-background: #f8f8f8;
+  --strong-background: #f9f99f;
+
+  --strong-color: black;
+  --highlight-color: darkorange;
+  --select-color: limegreen;
+  --disabled-color: gray;
+
+  --padding: 0.25rem;
+
+  --button-background: #bee;
+  --button-border-radius: 3px;
+  --button-border-color: #bee;
+  --button-hover-border-color: #abb;
+  --button-hover-background: #bed;
+
+  --input-background: var(--primary-background);
+  --input-border-radius: 3px;
+  --input-border-color: #888;
+  --input-hover-border-color: #888;
+  --input-hover-background: #cde;
+
+  --room-card-spacing: calc(2 * var(--padding));
+}
